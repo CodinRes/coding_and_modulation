@@ -20,8 +20,8 @@ public class CodificadorDigital
      */
     public CodificadorDigital(String bits, int samplesPerBit)
     {
-        setBits(bits);
-        setSamplesPerBit(samplesPerBit);
+        this.setBits(bits);
+        this.setSamplesPerBit(samplesPerBit);
     }
 
     // Getter y Setter para bits

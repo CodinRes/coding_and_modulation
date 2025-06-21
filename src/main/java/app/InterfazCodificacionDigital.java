@@ -27,6 +27,8 @@ public class InterfazCodificacionDigital extends JFrame
     {
         this.setTitle("Codificación Digital");
         this.setSize(1280, 720);
+        this.setExtendedState(Frame.MAXIMIZED_BOTH); 
+        this.setVisible(true);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.setLayout(new BorderLayout());
 
